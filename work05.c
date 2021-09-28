@@ -44,8 +44,15 @@ int main() {
 	int *ptrUnsignedIntInt = &myUnsignedInt;
 	char *ptrUnsignedIntChar = &myUnsignedInt;
 
+	// 7
 	printf("ptrUnsignedIntInt: %p points to: %d\n", ptrUnsignedIntInt, *ptrUnsignedIntInt);
 	printf("ptrUnsignedIntChar: %p points to: %c\n", ptrUnsignedIntChar, *ptrUnsignedIntChar);  //not working
+
+	printf("\n");
+
+	// 8
+	printf("Unsigned Int: %x\n", myUnsignedInt);
+	printf("Unsigned Int: %u\n", myUnsignedInt);
 
 	return 0;
 }
