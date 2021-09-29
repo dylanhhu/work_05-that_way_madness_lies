@@ -40,13 +40,13 @@ int main() {
 	printf("\n");
 
 	// 6
-	unsigned int myUnsignedInt = 111111;
-	int *ptrUnsignedIntInt = &myUnsignedInt;
+	unsigned int myUnsignedInt = 123456789;
+	unsigned int *ptrUnsignedIntInt = &myUnsignedInt;
 	char *ptrUnsignedIntChar = &myUnsignedInt;
 
 	// 7
 	printf("ptrUnsignedIntInt: %p points to: %d\n", ptrUnsignedIntInt, *ptrUnsignedIntInt);
-	printf("ptrUnsignedIntChar: %p points to: %c\n", ptrUnsignedIntChar, *ptrUnsignedIntChar);  //not working
+	printf("ptrUnsignedIntChar: %p points to: %d\n", ptrUnsignedIntChar, *ptrUnsignedIntChar);  //maybe works
 
 	printf("\n");
 

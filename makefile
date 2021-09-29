@@ -3,3 +3,6 @@ all: work05.o
 
 work05.o:
 	gcc -c work05.c
+
+run:
+	./work05
